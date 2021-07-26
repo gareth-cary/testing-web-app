@@ -9,4 +9,7 @@ class PagesController < ApplicationController
   def corevalues
   end
 
+  def recipe
+  end
+
 end
