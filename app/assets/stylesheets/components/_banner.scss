@@ -1,0 +1,33 @@
+.banner-one {
+  background: image-url('banner-one.png') no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -60px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .title {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 18%;
+    h1 {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 80px;
+    }
+    p {
+      color: white;
+      max-width: 400px;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+}
+
+.button-one {
+  background-color: #F54748;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
