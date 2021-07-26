@@ -10,3 +10,30 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+a.nav-item.nav-link {
+    margin-right: 8%;
+}
+
+.banner-icon {
+  width: 60px;
+  margin-right: 25px;
+}
+
+.navbar-nav {
+  a {
+    color: white !important;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.nav-button {
+  position: absolute;
+  left: 90%;
+  background-color: #F54748;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+
+}
