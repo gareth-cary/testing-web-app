@@ -5,4 +5,8 @@ class PagesController < ApplicationController
 
   def banner
   end
+
+  def corevalues
+  end
+
 end

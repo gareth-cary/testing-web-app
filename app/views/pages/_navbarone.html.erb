@@ -5,9 +5,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <%= link_to "Home", root_path, class: "nav-item nav-link" %>
       <%= link_to "Banner", banner_path, class: "nav-item nav-link" %>
-      <a class="nav-item nav-link" href="#">Pricing</a>
+      <%= link_to "Values", corevalues_path, class: "nav-item nav-link" %>
       <a class="nav-item nav-link disabled" href="#">Disabled</a>
       <button class="nav-button my-2 my-sm-0" type="submit">Parents</button>
     </div>

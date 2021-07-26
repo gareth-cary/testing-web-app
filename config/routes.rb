@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
  root 'pages#home'
  get 'banner', to: 'pages#banner'
+ get 'corevalues', to: 'pages#corevalues'
 end
