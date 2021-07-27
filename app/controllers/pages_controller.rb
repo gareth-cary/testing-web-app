@@ -12,4 +12,7 @@ class PagesController < ApplicationController
   def recipe
   end
 
+  def tabs
+  end
+
 end

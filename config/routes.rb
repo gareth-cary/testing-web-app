@@ -5,4 +5,5 @@ Rails.application.routes.draw do
  get 'banner', to: 'pages#banner'
  get 'corevalues', to: 'pages#corevalues'
  get 'recipe', to: 'pages#recipe'
+ get 'tabs', to: 'pages#tabs'
 end
