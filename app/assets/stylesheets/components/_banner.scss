@@ -37,6 +37,26 @@
 
 .banner-two-position {
   max-width: 1450px;
+  .contact-banner {
+    display: flex;
+    align-items: start;
+    margin-top: 30px;
+    .phone-icon {
+      width: 20px;
+      min-width: 20px;
+      border-radius: 100%;
+      margin-right: 10px;
+      max-height: 20px;
+    }
+    .email-icon {
+      width: 20px;
+      min-width: 20px;
+      border-radius: 100%;
+      margin-right: 10px;
+      margin-left: 15px;
+      max-height: 20px;
+    }
+  }
 }
 
 .banner-two {
@@ -64,3 +84,5 @@
     }
   }
 }
+
+

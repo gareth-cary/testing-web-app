@@ -7,4 +7,5 @@ Rails.application.routes.draw do
  get 'corevalues', to: 'pages#corevalues'
  get 'recipe', to: 'pages#recipe'
  get 'tabs', to: 'pages#tabs'
+ get 'button', to: 'pages#button'
 end

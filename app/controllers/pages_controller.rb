@@ -18,4 +18,7 @@ class PagesController < ApplicationController
   def tabs
   end
 
+  def button
+  end
+
 end
