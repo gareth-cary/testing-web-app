@@ -6,6 +6,9 @@ class PagesController < ApplicationController
   def banner
   end
 
+  def bannertwo
+  end
+
   def corevalues
   end
 

@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
  root 'pages#home'
  get 'banner', to: 'pages#banner'
+ get 'bannertwo', to: 'pages#bannertwo'
  get 'corevalues', to: 'pages#corevalues'
  get 'recipe', to: 'pages#recipe'
  get 'tabs', to: 'pages#tabs'
